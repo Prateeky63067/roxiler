@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+.transactions-container {
+    padding: 30px;
+    background-color: #9bd7d5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.transactions-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.transactions-heading {
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #fff;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+
+
+.filters-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.month-select {
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgb(237, 183, 46);
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: #000;
+    outline: none;
+    background-color: rgb(227, 185, 79);
+}
+.search-input::placeholder{
+    color: #000;
+}
+
+.bar-chart-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.bar-chart-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
+
+.statistics-container {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.statistics-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.statistics-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+}
+
+.statistics-item {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    gap:5px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.statistics-label {
+    font-weight: bold;
+}
+
+.statistics-value {
+    font-size: 18px;
+}
+
+
+/* Add additional styles as needed */
+
+.transactions-table-container {
+    padding: 1rem;
+    background-color: rgb(234, 195, 103);
+    border-radius: 15px;
+}
+
+.table-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 0.5rem;
+    border: 2px solid #000;
+}
+
+.product-image {
+    background-color: transparent;
+    max-width: 100px;
+    max-height: 100px;
+}
